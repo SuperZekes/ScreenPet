@@ -41,7 +41,6 @@ def blink():
     root.after(3000, blink)
 
 
-# This is the part of the code that makes George look like himself!
 c = Canvas(root, width=400, height=400)
 c.configure(bg='#3FC056', highlightthickness=0)
 c.body_color='SkyBlue1'
